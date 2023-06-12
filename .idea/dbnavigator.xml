@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -27,11 +27,18 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="7ee8f924-3cfe-4815-8fef-9c3c53b0a25e" object-ref="schemas/app/tables/users" />
+      <object connection-id="7ee8f924-3cfe-4815-8fef-9c3c53b0a25e" object-ref="schemas/app/tables/cards" />
+      <object connection-id="7ee8f924-3cfe-4815-8fef-9c3c53b0a25e" object-ref="schemas/app/tables/auth_codes" />
+      <object connection-id="7ee8f924-3cfe-4815-8fef-9c3c53b0a25e" object-ref="schemas/app/tables/card_transactions" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="7ee8f924-3cfe-4815-8fef-9c3c53b0a25e" dataset="app.auth_codes" active-filter-id="" />
+    <filter-actions connection-id="7ee8f924-3cfe-4815-8fef-9c3c53b0a25e" dataset="app.auth_codes" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="7ee8f924-3cfe-4815-8fef-9c3c53b0a25e" dataset="app.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="7ee8f924-3cfe-4815-8fef-9c3c53b0a25e" dataset="app.card_transactions" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="7ee8f924-3cfe-4815-8fef-9c3c53b0a25e" dataset="app.cards" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
